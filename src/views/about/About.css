@@ -1,0 +1,82 @@
+.About {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 8rem 8rem 8rem;
+    grid-template-rows: 7rem;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* .grid_container {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px;
+    padding: 10px;
+} */
+
+.btn3 {
+    margin: 2rem;
+    background: #eadbca;
+    color: #175892;
+    border-radius: 0.5rem;
+    padding: 2rem 3rem;
+    cursor: pointer;
+    box-shadow: 0.05rem 0.05rem;
+    border: 1px solid #aa9e93;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    background: #aca194;
+}
+
+.flex-all .btn3 {
+    margin-left: -110%;
+    
+}
+
+.card {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 10000;
+    z-index: 20;
+    opacity: 0.9;
+    width: 40vw;
+    height: 10vh;
+    /*box*/
+    padding: 2rem;
+    background-color: #5baef7;
+    border-radius: 8px;
+    max-width: 1960px;
+    min-width: 400px;
+
+}
+.flex-all {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 10000;
+    z-index: 20;
+    opacity: 0.95;
+    margin: auto;
+    padding: 2rem;
+    box-sizing: border-box 3.125rem 1.875rem;
+    background-color: #5baef7;
+    border-radius: 0.5rem;
+    margin-top: 9%;
+    max-width: 1960px;
+    min-width: 400px;
+    align-items: center;
+    display: flex;
+
+}

@@ -1,0 +1,66 @@
+.Param {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.Param .main_box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    width: 25%;
+    height: 50%;
+    background-color: #0c54b8;
+    background-size: 100%;
+    opacity: 0.8;
+    border-radius: 0.6rem;
+    color: white;
+    margin: auto;
+    margin-top: 4.375rem;
+    max-width: 1960px;
+    min-width: 360px;
+}
+.Param .loginbox1 {
+    display: flex;
+    justify-content: left;
+    margin-top: 0.6rem;
+    text-align: left;
+}
+
+.Param .margebox {
+    text-align: left;
+    padding-left: 10%;
+  }
+  
+.Param input {
+    padding: 0.3rem;
+    justify-content: center;
+    border-radius: 0.4rem;
+    border: none;
+    width: 85%;
+  }
+  
+.Param label {
+    margin: 0.6rem;
+}
+  
+.Param .button {
+    margin-top: 1.3rem;
+    background: #5baef7;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+.Param .button:hover {
+    background: #32087c;
+}
+  
+.Param .box_2 a {
+    color: #5baef7;
+    text-decoration: none;
+}
+
+.Param .box_2 a:hover {
+    color: #32087c;
+}
+  

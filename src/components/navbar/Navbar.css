@@ -1,0 +1,50 @@
+/*Navbar*/
+body {
+  background-image: url("3880864.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #1e73be;
+  color: #fff;
+  width: 100%;
+  height: 10vh;
+  top: 0px;
+  opacity: 0.85;
+  padding: 0 1.8rem;
+  z-index: 100;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  margin: 0 3.75rem;
+}
+
+.navbar a:hover {
+  border-bottom: #44344f 0.15rem solid;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
+  width: 100%;
+
+}
+
+.navbar .logo {
+  font-weight: 400;
+  opacity: 1;
+}
+
+
+.navbar .text-primary {
+  color: 	#023e82;
+}
